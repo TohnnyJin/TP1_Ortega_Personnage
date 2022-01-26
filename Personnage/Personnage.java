@@ -19,8 +19,8 @@ public int LaForce(){
 }
 
 public void attaque(Personnage perso){
-perso.vie() - this.force();
-this.vie() - perso.force();
+perso.vie() = perso.vie() - this.force();
+this.vie() = this.vie() - perso.force();
 }
 
 //Les attributs

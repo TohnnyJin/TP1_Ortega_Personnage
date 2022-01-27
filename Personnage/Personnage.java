@@ -19,10 +19,10 @@ public int LaForce(){
 }
 
 public void attaque(Personnage perso){
+	System.out.println(this.LeNom()+" inflige "+this.LaForce()+" dégât(s) à "+perso.nom);
+	System.out.println(perso.LeNom()+" inflige "+perso.LaForce()+" dégât(s) à "+this.LeNom());
 	perso.vie = perso.vie - this.force;
-	this.vie = this.vie - perso.force;
-	System.out.println(this.LeNom()+" "+this.LaVie());
-	System.out.println(perso.LeNom()+" "+perso.LaVie());
+	this.vie = this.vie - perso.force;	
 }
 
 //Les attributs

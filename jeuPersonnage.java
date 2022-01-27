@@ -7,7 +7,7 @@ System.out.println("Il possède : "+ UnSorcier.LaVie() +" points de vie.");
 System.out.println("Il possède aussi : "+ UnSorcier.LaForce() +" points d'attaque.");
 
 Personnage victime = new Personnage ("jacques", 80, 1);
+    UnSorcier.attaque(victime);
 
-
-}
+    }   
 }

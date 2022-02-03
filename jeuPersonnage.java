@@ -5,7 +5,7 @@ Personnage UnSorcier = new Personnage ("Harry Potter", 100, 25);
 Personnage victime = new Personnage ("jacques", 1, 1);
 Personnage Roi = new Personnage ("Hagrid", 10000, 10000);
 System.out.println();
-System.out.println("Il était une fois, "+UnSorcier.LeNom()+"le sorcier veut voler la couronne du roi.");
+System.out.println("Il était une fois, "+UnSorcier.LeNom()+" le sorcier veut voler la couronne du roi.");
 System.out.println("Mais "+victime.LeNom()+", le meilleur garde de Chine l'empêche !");
 System.out.println("Ils s'affrontent dans un combat à mort.");
 System.out.println();

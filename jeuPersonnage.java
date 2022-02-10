@@ -16,11 +16,11 @@ System.out.println();
     System.out.println(Roi.LeNom()+ ": Harry, tu es un criminel, pas un sorcier !");
     System.out.println(Roi.LeNom()+": Pour tous les péchés que tu as commis, je vais te faire apprendre les maths !");
     System.out.println();
-    System.out.println("Le roi se concentre et cria:");
+    System.out.println("Le roi se concentre et cria");
     System.out.println(Roi.LeNom()+": b²-4ac !");
     System.out.println();
     System.out.println("Cette formule de maths très complexe infligera "+Roi.LaForce()+" points de dégats à "+UnSorcier.LeNom());
-    System.out.println(UnSorcier.LeNom()+" a été par le roi et sa formule de maths.");
+    System.out.println(UnSorcier.LeNom()+" a été tué par le roi et sa formule de maths.");
     System.out.println();
     System.out.println("Fin de l'histoire");
 
